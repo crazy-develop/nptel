@@ -1,4 +1,5 @@
-import './style.css'
+// Styles imported via HTML link tag for better compatibility
+
 
 // Course Data (24 Courses as requested)
 const courses = [
