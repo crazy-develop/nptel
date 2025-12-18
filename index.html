@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NPTEL Student Information Portal | AKTU</title>
+  <meta name="description"
+    content="Official NPTEL Information Portal for AKTU B.Tech Students. Find courses, criteria for Honors degree, and latest updates.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <span class="logo-icon"><i class="fa-solid fa-graduation-cap"></i></span>
+        WHATIN NPTEL <span class="highlight">Portal</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#honors">Honors</a></li>
+        <li><a href="#updates">Updates</a></li>
+      </ul>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <span class="badge fade-in-up">For AKTU B.Tech Students</span>
+      <h1 class="fade-in-up delay-1">Master Your <span class="text-gradient">Engineering Journey</span> with NPTEL</h1>
+      <p class="fade-in-up delay-2">Access AKTU-approved courses, earn your Honors Degree, and stay updated with the
+        latest academic notifications.</p>
+      <div class="hero-buttons fade-in-up delay-3">
+        <a href="#courses" class="btn btn-primary">Explore Courses <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#honors" class="btn btn-secondary">Honors Criteria</a>
+      </div>
+    </div>
+    <div class="scroll-indicator fade-in-up delay-4">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About NPTEL -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Why NPTEL?</span>
+        <h2 class="section-title">Empowering Education</h2>
+        <div class="line-shape"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-card reveal">
+          <div class="icon-box"><i class="fa-solid fa-certificate"></i></div>
+          <h3>Recognized Certification</h3>
+          <p>Get certificates from IITs and IISc, valuable for your resume and career growth.</p>
+        </div>
+        <div class="about-card reveal delay-1">
+          <div class="icon-box"><i class="fa-solid fa-book-open"></i></div>
+          <h3>Quality Content</h3>
+          <p>Learn from the best professors in India with high-quality video lectures and materials.</p>
+        </div>
+        <div class="about-card reveal delay-2">
+          <div class="icon-box"><i class="fa-solid fa-award"></i></div>
+          <h3>B.Tech Honors</h3>
+          <p>Complete 20 credits through NPTEL courses to be eligible for the AKTU B.Tech Honors Degree.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AKTU Approved Courses -->
+  <section id="courses" class="section courses">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Curriculum</span>
+        <h2 class="section-title">AKTU Approved Courses</h2>
+        <p class="section-desc">Select from the list of approved courses for credit transfer.</p>
+      </div>
+
+      <!-- Filter/Search (Optional but good) -->
+      <div class="course-controls reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="cse">CSE/IT</button>
+        <button class="filter-btn" data-filter="ece">ECE</button>
+        <button class="filter-btn" data-filter="me">ME</button>
+      </div>
+
+      <div class="course-grid" id="course-grid">
+        <!-- Courses will be injected via JS -->
+      </div>
+
+      <div class="center-btn reveal">
+        <a href="https://nptel.ac.in/" target="_blank" class="btn btn-outline">View All NPTEL Courses</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Updates & Notices -->
+  <section id="updates" class="section updates">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 reveal">
+          <div class="notice-board">
+            <div class="notice-header">
+              <h3><i class="fa-solid fa-bell"></i> Latest Updates</h3>
+            </div>
+            <div class="notice-body">
+              <ul class="notice-list">
+                <li class="notice-item">
+                  <span class="date">Dec 18</span>
+                  <p>Registration for Jan-Apr 2025 session is now open. <span class="new-tag">New</span></p>
+                </li>
+                <li class="notice-item">
+                  <span class="date">Dec 15</span>
+                  <p>Last date for exam registration extended till Dec 25th.</p>
+                </li>
+                <li class="notice-item">
+                  <span class="date">Nov 30</span>
+                  <p>Results declared for Jul-Oct 2024 session.</p>
+                </li>
+                <li class="notice-item">
+                  <span class="date">Nov 10</span>
+                  <p>Credit transfer guidelines updated for 2024-25 batch.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 reveal delay-1">
+          <div class="official-docs">
+            <h3>Official Documents</h3>
+            <p>Download the official AKTU circulars regarding NPTEL MOOCs.</p>
+            <div class="doc-card">
+              <div class="doc-icon"><i class="fa-solid fa-file-pdf"></i></div>
+              <div class="doc-info">
+                <h4>List of MOOCs Courses (2024-25)</h4>
+                <p>PDF - 1.3 MB</p>
+              </div>
+              <a href="https://drive.google.com/file/d/1U9-mVIjtpqL1uJyMngMt0NnTZI-pPfzt/view?usp=drive_link" target="_blank" class="btn-icon"><i class="fa-solid fa-download"></i></a>
+            </div>
+            <div class="doc-card">
+              <div class="doc-icon"><i class="fa-solid fa-file-pdf"></i></div>
+              <div class="doc-info">
+                <h4>AKTU NPTEL NORMS</h4>
+                <p>PDF - 276 KB</p>
+              </div>
+              <a href="https://drive.google.com/file/d/1RHQSAUFkN5VpkhKAfJQnzdHuRULGrXB4/view?usp=drive_link" target="_blank" class="btn-icon"><i class="fa-solid fa-download"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Honors Criteria -->
+  <section id="honors" class="section honors">
+    <div class="container">
+      <div class="honors-wrapper reveal">
+        <div class="honors-content">
+          <span class="section-subtitle">Eligibility</span>
+          <h2 class="section-title">B.Tech Honors Degree</h2>
+          <p>To obtain a B.Tech Honors degree from AKTU, a student must acquire 20 additional credits through NPTEL
+            MOOCs.</p>
+
+          <ul class="criteria-list">
+            <li>
+              <span class="check-icon"><i class="fa-solid fa-check"></i></span>
+              <span>Must clear all regular B.Tech papers without carry-over.</span>
+            </li>
+            <li>
+              <span class="check-icon"><i class="fa-solid fa-check"></i></span>
+              <span>Maintain a CGPA of 7.5 or above throughout the course.</span>
+            </li>
+            <li>
+              <span class="check-icon"><i class="fa-solid fa-check"></i></span>
+              <span>Complete 20 credits via NPTEL (approx. 5-6 courses).</span>
+            </li>
+            <li>
+              <span class="check-icon"><i class="fa-solid fa-check"></i></span>
+              <span>Courses must be relevant to the discipline or interdisciplinary.</span>
+            </li>
+          </ul>
+
+          <a href="#" class="btn btn-white">Read Full Ordinance</a>
+        </div>
+        <div class="honors-image">
+          <!-- Decorative abstract shape or illustration -->
+          <div class="floating-card card-1">
+            <i class="fa-solid fa-medal"></i>
+            <span>20 Credits</span>
+          </div>
+          <div class="floating-card card-2">
+            <i class="fa-solid fa-user-graduate"></i>
+            <span>Honors</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section faq">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+      </div>
+      <div class="faq-container">
+        <div class="faq-item reveal">
+          <div class="faq-question">
+            How do I register for an NPTEL course?
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>You can register through the Swayam portal (swayam.gov.in). Create an account, search for the course, and
+              click 'Join'.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <div class="faq-question">
+            Is the exam fee refundable?
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>No, the exam fee is generally non-refundable. However, in specific cases like medical emergencies, NPTEL
+              may consider requests.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <div class="faq-question">
+            How are credits transferred to AKTU marksheet?
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>After passing the exam, you need to submit your certificate to your college registrar. The university
+              will then update your marksheet.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>WHATIN NPTEL Portal</h3>
+          <p>Helping AKTU students achieve academic excellence.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="#hero">Home</a>
+          <a href="#courses">Courses</a>
+          <a href="#updates">Notices</a>
+        </div>
+        <div class="footer-social">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 NPTEL Student Portal. Not an official AKTU site. Student Initiative.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
