@@ -102,15 +102,15 @@ const courses = [
     image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
     link: "https://nptel.ac.in/courses/105106172"
   },
-  // {
-  //   id: 12,
-  //   title: "Fluid Mechanics",
-  //   category: "me",
-  //   duration: "12 Weeks",
-  //   institute: "IIT Kharagpur",
-  //   image: "https://images.unsplash.com/photo-1507413245164-6160d8298b31?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
-  //   link: "nptel course link"
-  // },
+  {
+    id: 12,
+    title: "Data Analytics with Python",
+    category: "cse",
+    duration: "12 Weeks",
+    institute: "IIT Roorkee",
+    image: "https://images.unsplash.com/photo-1507413245164-6160d8298b31?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    link: "https://nptel.ac.in/courses/106107220"
+  },
   // {
   //   id: 13,
   //   title: "Robotics",
